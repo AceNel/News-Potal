@@ -45,11 +45,6 @@ In the terminal locate the url showing your spark server
 You can navigate to [http://localhost:4567/](http://localhost:4567/) as it works with most spark appications
 You can the add the animal which thereafter you can add to endangered animals
  
-## Testing using postmang
-### Posting department
-![Posting](src/main/resources/public/images/postdepartments.png)
-### Getting departments
-![Get department](src/main/resources/public/images/getdepartments.png)
 ## Technologies used
 In the following app we used the following technologies
 * Java
