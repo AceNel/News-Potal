@@ -1,6 +1,5 @@
-# Organisational API
-
-Organisationaal api is an application programming interface that allows you to add and retrieve employees
+# Organisational News Portal API
+A rest REST API for querying and retrieving scoped news and information.
 
 ## Author
 [Nelson Kimani](https://github.com/AceNel)
