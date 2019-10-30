@@ -18,19 +18,13 @@ We use gradle as our dependency manager as it is scripted unlike maven so to ins
 ```bash
 sudo apt install gradle
 ```
-To get started with the wildlife tracker you need to do the following :
-```bash
-mkdir myprojects
-cd myprojects
-git clone https://github.com/Nathan-Kimutai/organapi.git
-```
 Make sure you recreate the database on your local machine. To do that execute the following schema:
-It might or might not work so try
+
 ```$xslt
 CREATE DATABASE organisational;
-CREATE TABLE department(id serial PRIMARY KEY,name VARCHAR);
-CREATE TABLE employees(id serial PRIMARY KEY,name VARCHAR,department VARCHAR);
-CRATE TABLE employees_deparment(id serial PRIMARY KEY,dept_id integer,emp_id integer);
+CREATE TABLE department(id serial PRIMARY KEY,name VARCHAR, description, total_employees integer);
+CREATE TABLE employees(id serial PRIMARY KEY,name VARCHAR, position VARCHAR, role VARCHAR, department_id integer);
+CRATE TABLE news(id serial PRIMARY KEY,title VARCHAR,content VARCHAR,writtenBy VARCHAR,department_id integer);
 ```
 
 ## Usage
